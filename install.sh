@@ -92,15 +92,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/blob/main/enigma.zip")        
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")        
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/blob/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/blob/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")
         break
         ;; 
       x)
