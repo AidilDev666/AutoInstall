@@ -92,15 +92,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/main/stellar.zip")        
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/main/billing.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/main/enigma.zip")
         break
         ;; 
       x)
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/stellar.zip https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip
+wget -O /root/stellar.zip https://github.com/AidilDev666/AutoInstall/raw/main/stellar.zip
 
 
 # Ekstrak file tema
@@ -613,15 +613,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/main/stellar.zip")        
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/main/billing.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/main/enigma.zip")
         break
         ;; 
       x)
@@ -766,7 +766,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/stellar.zip https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/stellar.zip
+wget -O /root/stellar.zip https://github.com/AidilDev666/AutoInstall/raw/main/stellar.zip
 
 
 # Ekstrak file tema
