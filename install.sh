@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")        
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/stellar.zip")        
         break
         ;;
       2)
@@ -100,7 +100,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/enigma.zip")
         break
         ;; 
       x)
@@ -448,22 +448,22 @@ check_token
 while true; do
   clear
   echo -e "                                                                     "
-  echo -e "${RED}        _,gggggggggg.                                     ${NC}"
-  echo -e "${RED}    ,ggggggggggggggggg.                                   ${NC}"
-  echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
-  echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
-  echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Skyzopedia   ${NC}"
-  echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Skyzopedia      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Skyzopedia  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Skyzopedia  ${NC}"
-  echo -e "${RED}  'ggg    '-.__                                           ${NC}"
-  echo -e "${RED}    ggg                                                   ${NC}"
-  echo -e "${RED}      ggg                                                 ${NC}"
-  echo -e "${RED}        ggg.                                              ${NC}"
-  echo -e "${RED}          ggg.                                            ${NC}"
-  echo -e "${RED}             b.                                           ${NC}"
+  echo -e "${RED}        _,gggggggggg.                                      ${NC}"
+  echo -e "${RED}    ,ggggggggggggggggg.                                    ${NC}"
+  echo -e "${RED}  ,ggggg        gggggggg.                                  ${NC}"
+  echo -e "${RED} ,ggg'               'ggg.                                 ${NC}"
+  echo -e "${RED}',gg       ,ggg.      'ggg:                                ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer AidilRiski ${NC}"
+  echo -e "${RED}gggg      gg     ,     ggg      ------------------------   ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : AidilDev      ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : AidilRiski    ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by MyBrain       ${NC}"
+  echo -e "${RED}  'ggg    '-.__                                            ${NC}"
+  echo -e "${RED}    ggg                                                    ${NC}"
+  echo -e "${RED}      ggg                                                  ${NC}"
+  echo -e "${RED}        ggg.                                               ${NC}"
+  echo -e "${RED}          ggg.                                             ${NC}"
+  echo -e "${RED}             b.                                            ${NC}"
   echo -e "                                                                     "
   echo -e "BERIKUT LIST INSTALL :"
   echo "1. Install theme"
@@ -534,7 +534,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © SKYZOPEDIA                [+]${NC}"
+  echo -e "${BLUE}[+]                  © AIDIL RISKI                  [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -542,9 +542,9 @@ display_welcome() {
   echo -e "Dilarang Keras Share Bebas."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@skyzodev"
+  echo -e "@AidilDev"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@skyzopedia"
+  echo -e "@AidilRiski"
   sleep 4
   clear
 }
@@ -577,20 +577,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY RAFATHAR CODE            [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY AIDIL RISKI               [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "skyzodev" ]; then
+  if [ "$USER_TOKEN" = "aidilriskii" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Token Salah! Beli Kode Token Di Skyzopedia${NC}"
-    echo -e "${YELLOW}TELEGRAM : @skyzodev${NC}"
-    echo -e "${YELLOW}WHATSAPP : +6285624297893${NC}"
+    echo -e "${GREEN}Token Salah! Beli Kode Token Di AidilRiski${NC}"
+    echo -e "${YELLOW}TELEGRAM : @AidilDev${NC}"
+    echo -e "${YELLOW}WHATSAPP : +6281396484112${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© Skyzopedia${NC}"
+    echo -e "${YELLOW}© AidilRiski${NC}"
     exit 1
   fi
   clear
@@ -613,15 +613,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/stellar.zip")        
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/billing.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/enigma.zip")
         break
         ;; 
       x)
@@ -766,7 +766,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/stellar.zip https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip
+wget -O /root/stellar.zip https://github.com/AidilDev666/AutoInstall/raw/refs/heads/main/stellar.zip
 
 
 # Ekstrak file tema
@@ -974,11 +974,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Skyzopedia   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer AidilDev   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Skyzopedia      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Skyzopedia  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Skyzopedia  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Aidilriski  ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Aidilriski  ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by AidiRiski  ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
